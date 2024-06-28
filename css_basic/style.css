@@ -1,1 +1,84 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body, html {
+    height: 100%;
+}
+
+/* Flexbox layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Ensuring the main container adjusts its height automatically */
+main {
+    flex: auto;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    body.works_on_smartphone {
+        display: block;
+    }
+    body.works_on_smartphone main {
+        display: block;
+    }
+    header .right {
+        float: none;
+    }
+    article, aside {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    header, footer {
+        padding: 5px;
+    }
+    article, aside {
+        padding: 5px;
+    }
+    header li a {
+        margin: 0 5px;
+    }
+}
