@@ -23,7 +23,8 @@ main {
 }
 
 header, footer {
-    background-color: #f8f9fa;
+    background-color: #282c34;
+    color: white;
     padding: 10px;
     text-align: center;
 }
@@ -53,6 +54,86 @@ aside {
 /* Ensuring the main container adjusts its height automatically */
 main {
     flex: auto;
+}
+
+/* Header styling */
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    vertical-align: middle;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header li.logo {
+    font-size: 36px;
+}
+
+/* Aside styling */
+aside p {
+    border-radius: 10px;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    padding: 5px 15px;
+    height: 80px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Text styles and margins */
+p {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 40px 0 20px;
+    color: #282c34;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 30px 0 15px;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 25px 0 10px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+h6 {
+    font-weight: bold;
+    margin: 5px 0;
 }
 
 /* Media Queries */
