@@ -6,7 +6,13 @@
 
 body, html {
     height: 100%;
+    
 }
+
+@font-face {
+    font-family: MyCustomFont;
+    src: url('path/to/font-file.ttf');
+  }
 
  /* Header Styling */
 
@@ -75,3 +81,26 @@ img[src="Object.png"] {
     }
 }
 
+/* Center the div within the section */
+section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section > div > span{
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+/* Optional: Style for the button */
+
+section > div > button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+     /* Add some spacing above the button */
+}
