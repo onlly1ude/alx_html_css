@@ -1,1 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body, html {
+    height: 100%;
+    
+}
+header {
+    background-color: none;
+     color: white;
+     padding: 20px;
+ }
+
+ header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.logo {
+    height: fit-content;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
