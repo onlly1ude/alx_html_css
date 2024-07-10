@@ -3,10 +3,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Source Sans Pro;
 }
 
-.headphone-container {
-    width: 0;
-    height: 0;
-    border: 1px solid black;
+div {
+    /* border: 1px solid red; */
+}
+
+
+
+.hero {
+    height: 100vh;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+     margin: 0 auto;
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 0px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.call h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.call p {
+    color: white;
+    font-size: 16px;
+}
+
+.call button {
+    background-color: #FF6565;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+h2 {
+    margin-top: 250px;
+    text-align: center;
+    align-items: center;
+    margin: 150px;
+    color: white;
+    font-size: 16px;
+   display: flex;
 }
