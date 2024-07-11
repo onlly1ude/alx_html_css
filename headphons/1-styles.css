@@ -1,29 +1,92 @@
-
-body {
+/* General resets */
+* {
     margin: 0;
-    padding: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+
+div {
+    /* border: 1px solid red; */
+}
+
+
+
+.hero {
+    height: 100vh;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.nav-bar {
+     margin: 0 auto;
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 0px;
 }
 
-nav ul {
-    background: white;
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    right: 0;
+.links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.call h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.call p {
+    color: white;
+    font-size: 16px;
+}
+
+.call button {
+    background-color: #FF6565;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+h2 {
+    margin-top: 250px;
+    text-align: center;
+    align-items: center;
+    margin: 150px;
+    color: white;
+    font-size: 16px;
+   display: flex;
+}
+
+.section_1 {
     height: 100vh;
-    margin: 0;
-    list-style: none;
-    width: 40%;
-    text-align: right;
-    padding: 2em;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in-out;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.basic {
+    margin: 250px;
+    text-align: center;
 }
 
 
