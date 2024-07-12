@@ -54,7 +54,8 @@ div {
 
 .call p {
     color: white;
-    font-size: 0.875rem;
+    font-size: 0.875rem;    
+    margin-top: ;
 }
 
 .call button {
@@ -89,7 +90,7 @@ div {
 .section_1 h3  {
     margin: 5px 5px;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
    
 }
@@ -161,8 +162,9 @@ div {
     align-items: center;
     justify-content: space-between;
     padding: 2.5%;
-    margin-bottom: 100px;
+    margin-bottom: 5vh;
 }
+
 
 
 
