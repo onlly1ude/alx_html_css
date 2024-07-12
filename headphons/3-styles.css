@@ -1,0 +1,166 @@
+ /* General resets */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+
+div {
+    /* border: 1px solid red; */
+}
+
+
+
+.hero {
+    height: 100vh;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+     margin: 0 auto;
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 0px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.call h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.call p {
+    color: white;
+    font-size: 0.875rem;    
+    margin-top: ;
+}
+
+.call button {
+    background-color: #FF6565;
+    margin-top: 50px;
+    color: white;
+    font-size: 0.875rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.text {
+    margin-top: 250px;
+    margin-bottom: 250px;
+    text-align: center;
+    align-items: center;
+    margin: 150px;
+    color: white;
+    font-size: 16px;
+    padding: 5%;
+   
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section_1 h3  {
+    margin: 5px 5px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+   
+}
+
+.paragraph {
+    padding: 5%;
+    flex-direction: column;
+}
+
+.images {
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+    margin-bottom: 100px;
+    
+}
+
+.images p {
+    margin-top: 20px;
+}
+
+.section_2 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    padding: 0 5%;
+}
+
+.call2  h4 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.call2 p {
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .call h1, .call2 h4 {
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+.second-image {
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+    margin-bottom: 5vh;
+}
