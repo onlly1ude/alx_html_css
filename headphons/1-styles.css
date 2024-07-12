@@ -74,19 +74,42 @@ h2 {
     margin: 150px;
     color: white;
     font-size: 16px;
-   display: flex;
+   
 }
 
 .section_1 {
-    height: 100vh;
-    background-image: url('./background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }
 
-.basic {
-    margin: 250px;
+.section_1 h3  {
+    margin: 5px 5px;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
+   
+}
+
+.paragraph {
+    padding: 70px 70px;
+    flex-direction: column;
+}
+
+.images {
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    margin-bottom: 100px;
+}
+
+.images p {
+    margin-top: 20px;
 }
 
 
