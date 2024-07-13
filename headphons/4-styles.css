@@ -165,51 +165,10 @@ div {
     margin-bottom: 5vh;
 }
 
-.fourth-section {
-    text-align: center;
-  }
-  .fourth-section label {
-    width: 10%;
-    text-align: left; /* Align labels to the left */
-  }
-  
-  .fourth-section input,
-  .fourth-section button {
-    width: 50%; /* Make inputs and buttons take full width */
-    margin-bottom: 10px; /* Add space between form elements */
-  }
-  .fourth-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px; /* Adjust padding as needed */
-  }
-  
-  .fourth-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%; /* Make the form width 100% */
-    max-width: 400px; /* Add a max-width to control the form width */
-  }
-  
-  .fourth-section label {
-    width: 100%;
-    text-align: left; /* Align labels to the left */
-  }
-  
-  .fourth-section input,
-  .fourth-section button {
-    width: 100%; /* Make inputs and buttons take full width */
-    margin-bottom: 10px; /* Add space between form elements */
-  }
-  
-  .fourth-section div {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.section-4 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('footer_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
